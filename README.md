@@ -1,2 +1,2 @@
-# lili-api
+# api-lili
 Lili's personal API!
