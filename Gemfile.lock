@@ -3,6 +3,7 @@ GEM
   specs:
     json (1.8.3)
     rack (1.6.5)
+    rack-cors (0.4.1)
     rack-protection (1.5.3)
       rack
     sinatra (1.4.8)
@@ -16,6 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  rack-cors
   sinatra
 
 BUNDLED WITH
