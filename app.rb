@@ -1,7 +1,9 @@
 require 'sinatra'
 require 'json'
-
 require './api'
+
+set :protection, :except => [:json_csrf]
+
 
 get '/' do
   extend API
