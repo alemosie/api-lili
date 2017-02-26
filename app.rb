@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 
-require 'api.rb'
+require './api'
 
 get '/' do
   extend API
